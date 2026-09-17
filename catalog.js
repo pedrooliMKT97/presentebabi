@@ -31,28 +31,28 @@ window.products=[
     "id": "caixa",
     "name": "Caixa Personalizada",
     "category": "Presentes",
-    "price": 105,
+    "price": 89,
     "image": "assets/caixa-real.png"
   },
   {
     "id": "guloseimas",
     "name": "Cesta de Guloseimas",
     "category": "Cestas",
-    "price": 150,
+    "price": 149,
     "image": "assets/guloseimas-real.png"
   },
   {
     "id": "mini",
     "name": "Mini Buquê",
     "category": "Buquês",
-    "price": 65,
+    "price": 62,
     "image": "assets/mini-real.png"
   },
   {
     "id": "caixinha",
     "name": "Caixinha Personalizada",
     "category": "Presentes",
-    "price": 69,
+    "price": 79,
     "image": "assets/caixinha-real.png"
   },
   {
@@ -61,6 +61,27 @@ window.products=[
     "category": "Cestas",
     "price": 115,
     "image": "assets/cafe-simples-real.png"
+  },
+  {
+    "id": "guloseimas-p",
+    "name": "Cesta de Guloseimas P",
+    "category": "Cestas",
+    "price": 92,
+    "image": "assets/cesta-guloseimas-p.jpeg"
+  },
+  {
+    "id": "caneca-personalizada",
+    "name": "Caneca Personalizada",
+    "category": "Presentes",
+    "price": 39.90,
+    "image": "assets/caneca-personalizada.jpeg"
+  },
+  {
+    "id": "rosas-eternas-medio",
+    "name": "Buquê de Rosas Eternas Médio",
+    "category": "Buquês",
+    "price": 96,
+    "image": "assets/buque-rosas-eternas-medio.jpeg"
   }
 ];
 function money(value){return value.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})}
