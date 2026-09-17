@@ -67,21 +67,24 @@ window.products=[
     "name": "Cesta de Guloseimas P",
     "category": "Cestas",
     "price": 92,
-    "image": "assets/cesta-guloseimas-p.jpeg"
+    "image": "assets/cesta-guloseimas-p.jpeg",
+    "imageFit": "contain"
   },
   {
     "id": "caneca-personalizada",
     "name": "Caneca Personalizada",
     "category": "Presentes",
     "price": 39.90,
-    "image": "assets/caneca-personalizada.jpeg"
+    "image": "assets/caneca-personalizada.jpeg",
+    "imageFit": "contain"
   },
   {
     "id": "rosas-eternas-medio",
     "name": "Buquê de Rosas Eternas Médio",
     "category": "Buquês",
     "price": 96,
-    "image": "assets/buque-rosas-eternas-medio.jpeg"
+    "image": "assets/buque-rosas-eternas-medio.jpeg",
+    "imageFit": "contain"
   }
 ];
 function money(value){return value.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})}
